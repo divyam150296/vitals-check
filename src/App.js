@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AddUser from './components/User/AddUser';
 import UsertList from './components/User/UserList';
+// import DualPointer from './components/User/DualPointer'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
   }
   return (
     <div>
+      {/* <div><DualPointer /></div> */}
       <AddUser setUserDetails={getUserDetails}/>
       <UsertList userList={userList}/>
     </div>
